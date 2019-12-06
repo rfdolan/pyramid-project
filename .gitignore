@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+##################################################
+# For Microsoft Visual Studio.
+/vs-2019/Debug
+/vs-2019/dragonfly.VC.db
+/vs-2019/dragonfly.VC.VC.opendb
+/vs-2019/x64
+/vs-2019/.vs
+
+##################################################
+# Dragonfly
+dragonfly.log
+*.log
+game
+df-test
+core
+*~
+*/*/screen/*.jpg
